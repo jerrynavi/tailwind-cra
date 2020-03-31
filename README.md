@@ -4,7 +4,7 @@ Tailwind CSS is a utility-first CSS framework for rapidly building custom design
 
 I first heard about Tailwind from one of its creators, [@reinink](https://twitter.com/reinink), and I've been following its progress since one of the earliest pre-release versions. I used it in a few Angular projects at the time, and I've loved it ever since.
 
-Recently, I learned to configure a React app bootstrapped with `create-react-app` (==CRA==) without having to run the dreaded `eject` script. I will show you how to do the same in this post.
+Recently, I learned to configure a React app bootstrapped with `create-react-app` *CRA* without having to run the dreaded `eject` script. I will show you how to do the same in this post.
 
 ## Getting Started
 
@@ -13,16 +13,16 @@ First, bootstrap a React app using the CRA CLI by running the following command:
 ### Using npx
 
 ```bash
-npx create-react-app ==tailwind-cra== --template typescript
+npx create-react-app tailwind-cra --template typescript
 ```
 
 ### Using yarn
 
 ```bash
-yarn create react-app ==tailwind-cra== --template typescript
+yarn create react-app tailwind-cra --template typescript
 ```
 
-The command will create a single-page React application with a modern build setup for you. If the command is completed, you can `cd` into the directory and run `npm start` or `yarn start` to see your app running at `http://localhost:3000`. You can skip this step if you are looking to integrate Tailwind into an existing CRA project.
+The command will create a single-page React application with a modern build setup for you. When the command runs successfully, you can `cd` into the directory and run `npm start` or `yarn start` to see your app running at `http://localhost:3000`. You can skip this step if you are looking to integrate Tailwind into an existing CRA project.
 
 *Note: I will be using Yarn to add packages and run/build my app. You can always replace `yarn` with `npm` and the corresponding command name without any issues.*
 
@@ -118,7 +118,7 @@ What you've done is import the `override()` function from the `customize-cra` pa
 
 To see how amazing Tailwind is, let's have you create a nice-looking card without writing a single line of CSS. *How cool is that,* ***really?*** You'll see.
 
-First, `cd` into your ==src== directory and delete the `App.css` file that comes with a fresh CRA application.
+First, `cd` into your src directory and delete the `App.css` file that comes with a fresh CRA application.
 
 ```bash
 cd src
