@@ -4,7 +4,7 @@ Tailwind CSS is a utility-first CSS framework for rapidly building custom design
 
 I first heard about Tailwind from one of its creators, [@reinink](https://twitter.com/reinink), and I've been following its progress since one of the earliest pre-release versions. I used it in a few Angular projects at the time, and I've loved it ever since.
 
-Recently, I learned to configure a React app bootstrapped with `create-react-app` *CRA* without having to run the dreaded `eject` script. I will show you how to do the same in this post.
+Recently, I learned to configure Tailwind CSS for use in a React app bootstrapped with `create-react-app` *CRA* without having to run the dreaded `eject` script. I will show you how to do the same in this post.
 
 ## Getting Started
 
